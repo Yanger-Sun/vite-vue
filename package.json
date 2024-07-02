@@ -1,0 +1,29 @@
+{
+  "name": "init-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "dev": "vite build --mode dev && node toFile.mjs",
+    "build": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^5.4.1",
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.6",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "sass": "^1.77.6",
+    "vite": "^5.3.1",
+    "vite-plugin-html": "^3.2.2"
+  }
+}
